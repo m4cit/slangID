@@ -37,6 +37,7 @@ try:
         predictor_naive_g(input)
         predictor_naive_m(input)
         predictor_log(input)
+        print()
     elif opt == "-info":
         in_opt()
 except (IndexError, NameError, TypeError):
