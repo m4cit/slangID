@@ -10,7 +10,7 @@ def train_nbg():
     # saving trained classifier
     with open('classifiers/models/gaussian_nb_classifier.pkl', 'wb') as f:
         pickle.dump(clf_nbg,f)
-    print('Naive Bayes (Gaussian) trained...')
+    print('\nNaive Bayes (Gaussian) trained...\n')
 
 # function to predict the test set and list the sentences
 def naive_g():
