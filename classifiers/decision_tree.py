@@ -10,7 +10,7 @@ def train_dt():
     # saving trained classifier
     with open('classifiers/models/decision_tree_classifier.pkl', 'wb') as f:
         pickle.dump(clf_dt,f)
-    print('Decision Tree trained...')
+    print('\nDecision Tree trained...\n')
 
 # function to predict the test set and list the sentences
 def dec_tree():
