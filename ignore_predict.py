@@ -27,7 +27,7 @@ def train_svm():
     # saving trained models
     with open('./classifiers/models/pd_linear_svm_classifier.pkl', 'wb') as f:
         pickle.dump(clf_svm,f)
-    print('\nLinear SVM trained...')
+    print('\nLinear SVM trained...\n')
 
 def train_log():
     clf_log = LogisticRegression(C=32, fit_intercept=False, solver='newton-cg')
@@ -35,7 +35,7 @@ def train_log():
     # saving trained models
     with open('./classifiers/models/pd_log_regression_classifier.pkl', 'wb') as f:
         pickle.dump(clf_log,f)
-    print('Logistic Regression trained...\n')
+    print('\nLogistic Regression trained...\n')
 
 def train_dt():
     clf_dt = DecisionTreeClassifier(criterion='log_loss', min_samples_split=10)
@@ -43,7 +43,7 @@ def train_dt():
     # saving trained models
     with open('./classifiers/models/pd_decision_tree_classifier.pkl', 'wb') as f:
         pickle.dump(clf_dt,f)
-    print('Decision Tree trained...')
+    print('\nDecision Tree trained...\n')
 
 def train_nbg():
     clf_nbg = GaussianNB()
@@ -51,7 +51,7 @@ def train_nbg():
     # saving trained models
     with open('./classifiers/models/pd_gaussian_nb_classifier.pkl', 'wb') as f:
         pickle.dump(clf_nbg,f)
-    print('Naive Bayes (Gaussian) trained...')
+    print('\nNaive Bayes (Gaussian) trained...\n')
 
 def train_nbm():
     clf_nbm = MultinomialNB(alpha=2.0, fit_prior=False)
@@ -59,7 +59,7 @@ def train_nbm():
     # saving trained models
     with open('./classifiers/models/pd_multinomial_nb_classifier.pkl', 'wb') as f:
         pickle.dump(clf_nbm,f)
-    print('Naive Bayes (Multinomial) trained...')
+    print('\nNaive Bayes (Multinomial) trained...\n')
 
 ####################################################################################
 
