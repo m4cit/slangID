@@ -1,5 +1,5 @@
 def info():
-    print('\n Please pass "train all" to train all the models, or "train number" to train a specific model, eg.:\n ************************************\n python slangID_demo.py "train all" *\n',
+    print('\n Please pass "train all" to train all the models, or "train number" to train a specific model, e.g.:\n ************************************\n python slangID_demo.py "train all" *\n',
     'or                                 *\n python slangID_demo.py "train 1"   *\n',
     '************************************\n\n', '1 for Linear SVM\n 2 for Decision Tree\n 3 for Naive Bayes (Gaussian)\n 4 for Naive Bayes (Multinomial)\n 5 for Logistic Regression\n\n',
     'Then pick a classifier you want to use, e.g.:\n **************************\n python slangID_demo.py 1 *\n **************************\n')
