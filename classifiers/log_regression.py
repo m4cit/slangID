@@ -10,7 +10,7 @@ def train_log():
     # saving trained classifier
     with open('classifiers/models/log_regression_classifier.pkl', 'wb') as f:
         pickle.dump(clf_log,f)
-    print('Logistic Regression trained...\n')
+    print('\nLogistic Regression trained...\n')
 
 # function to predict the test set and list the sentences, as well as the predictions
 def log_reg():
