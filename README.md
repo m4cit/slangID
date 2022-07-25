@@ -19,11 +19,13 @@ Due to a lack of data, the results, regardless of the classifier used, are not g
 4. Follow the displayed instructions.
 # What you will be greeted with when you run _slangID_demo_
 
-![demo](https://user-images.githubusercontent.com/92433046/180862039-30424294-fd2b-46d8-a739-86f072a25a87.png)
+![demo](https://user-images.githubusercontent.com/92433046/180863321-b8f6d0d7-f984-4388-abb6-105628510e60.png)
+
 
 # What you will be greeted with when you run _slangID_predict_
 
 ![predict](https://user-images.githubusercontent.com/92433046/180862844-488c89da-0d0a-431f-b21b-00f4dcbb9fd2.png)
+
 
 # Source of the data
 
