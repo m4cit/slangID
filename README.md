@@ -13,13 +13,6 @@ Due to a lack of data, the results, regardless of the classifier used, are not g
  
 # How to Run slangID_demo and _predict
 
-1. Install Python 3.9 or later (3.8 and 3.10 is probably fine too, I used 3.9.12)
-2. Install the required packages by running _pip install -r requirements.txt_ in your preferred shell. Make sure you are in the directory where the .txt file is located.
-
-pip install pickle-mixin
-
-pip install sklearn
-
-pip install pandas
-
-Python 3.9.12
+1. Install Python **3.9** or later (3.8 and 3.10 is probably fine too, I used 3.9.12)
+2. Install the required packages by running **_pip install -r requirements.txt_** in your shell of choice. Make sure you are in the directory where the file is located.
+3. In the project directory (or navigate there in the shell), open your shell and run **_python slangID_demo.py_** or **_slangID_predict.py_**.
