@@ -10,7 +10,7 @@ def train_svm():
     # saving trained classifier
     with open('classifiers/models/linear_svm_classifier.pkl', 'wb') as f:
         pickle.dump(clf_svm,f)
-    print('\nLinear SVM trained...')
+    print('\nLinear SVM trained...\n')
 
 # function to predict the test set and list the sentences
 def lin_svm():
