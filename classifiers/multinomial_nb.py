@@ -10,7 +10,7 @@ def train_nbm():
     # saving trained classifier
     with open('classifiers/models/multinomial_nb_classifier.pkl', 'wb') as f:
         pickle.dump(clf_nbm,f)
-    print('Naive Bayes (Multinomial) trained...')
+    print('\nNaive Bayes (Multinomial) trained...\n')
 
 # function to predict the test set and list the sentences
 def naive_m():
