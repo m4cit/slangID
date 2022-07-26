@@ -33,3 +33,9 @@ Due to a lack of data, the results, regardless of the classifier used, are not g
 Most of the hand-picked sentences come from archive.org's [Twitter Stream of June 6th](https://archive.org/details/archiveteam-twitter-stream-2021-06).
 
 Some of the sentences / phrases come from me personally, which you might recognize due to their sad and depressing nature.
+
+
+# Recognition of Open Source use
+
+* scikit-learn
+* pandas
