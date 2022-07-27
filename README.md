@@ -8,7 +8,7 @@ In a nutshell: The slangID project tries to detect slang phrases / sentences.
 
 # Challenges
 
-Due to a lack of data, the results, regardless of the classifier used, are not good enough.
+Due to a lack of data, the results, regardless of the classifier used, are not good enough right now.
  Certain bigram slang words like (_a_) _**real one**_ are more difficult to resolve since the provided models do not take n-grams into consideration.
 
 # How to run _slangID_demo_ and _slangID_predict_
