@@ -1,9 +1,9 @@
 # Introducing slangID
 
-In a nutshell: The slangID project tries to detect slang phrases / sentences. Something literally no one asked for...
+In a nutshell: The slangID project tries to detect slang phrases. Something literally no one asked for...
 
  slangID consists of two programs:
- 1. **slangID_demo.py** lets you train a selection of Machine Learning Models, and prints out a test set of sentences with their predicted types (slang or normal).
+ 1. **slangID_demo.py** lets you train a selection of Machine Learning Models, and prints out a test set of phrases with their predicted types (slang or normal).
  2. **slangID_predict.py** lets you train a selection of Machine Learning Models and predict the type of your input.
 
 All the models are pre-trained.
@@ -32,9 +32,9 @@ Due to a lack of data, the results, regardless of the classifier used, are not g
 
 # Source of the data
 
-Most of the hand-picked sentences come from archive.org's [Twitter Stream of June 6th](https://archive.org/details/archiveteam-twitter-stream-2021-06).
+Most of the phrases come from archive.org's [Twitter Stream of June 6th](https://archive.org/details/archiveteam-twitter-stream-2021-06).
 
-Some of the sentences / phrases come from me personally, which you might recognize due to their sad and depressing nature.
+Some come from me personally, which you might recognize due to their sad and depressing nature.
 
 
 # Recognition of Open Source use
