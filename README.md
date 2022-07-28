@@ -1,6 +1,6 @@
 # Introducing slangID
 
-In a nutshell: The slangID project tries to detect slang phrases / sentences.
+In a nutshell: The slangID project tries to detect slang phrases / sentences. Something literally no one asked for...
 
  slangID consists of two programs:
  1. **slangID_demo.py** lets you train a selection of Machine Learning Models, and prints out a test set of sentences with their predicted types (slang or normal).
