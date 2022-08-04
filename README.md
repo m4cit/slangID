@@ -16,8 +16,8 @@ Due to a lack of data, the results, regardless of the classifier used, are not g
 # How to run slangID_demo and slangID_predict
 
 1. Install Python **3.9** or later (3.8 and 3.10 is probably fine too, I used 3.9.12).
-2. Install the required packages by running **_pip install -r requirements.txt_** in your shell of choice. Make sure you are in the project directory.
-3. And then run **_python slangID_demo.py_** or **_python slangID_predict.py_**.
+2. Install the required packages by running `pip install -r requirements.txt` in your shell of choice. Make sure you are in the project directory.
+3. And then run `python slangID_demo.py` or `python slangID_predict.py`.
 4. Follow the displayed instructions.
 
 # What you will be greeted with when you run slangID_demo
