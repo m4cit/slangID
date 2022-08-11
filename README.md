@@ -3,8 +3,8 @@
 In a nutshell: The slangID project tries to detect slang phrases. Something literally no one asked for...
 
  slangID consists of two programs:
- 1. **slangID_demo.py** lets you train a selection of Machine Learning Models, and prints out a test set of phrases with their predicted types (slang or normal).
- 2. **slangID_predict.py** lets you train a selection of Machine Learning Models and predict the type of your input.
+ 1. **slangID_demo.py** lets you train a selection of classifiers, and prints out a test set of phrases with their predicted types (slang or normal).
+ 2. **slangID_predict.py** lets you also train a selection of classifiers and predict the type of your input.
 
 All the models are pre-trained.
  
